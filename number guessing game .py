@@ -1,9 +1,9 @@
 import random
-r= random.randint(1,10)  # system choese a random number between 1 to 10
+r= random.randint(1,10) 
 print("THIS IS A NUMBER GUESSSING GAME")
 
 while True:
-    userchoice=int(input("ENTER YOUR GUESS:"))
+    userchoice=int(input("ENTER YOUR GUESS between 1 to 10:"))
 
     if (userchoice==r):
      print("CORRECT GUESS")
